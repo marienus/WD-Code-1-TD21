@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background: rgb(240,186,210);
+  background: radial-gradient(circle, rgba(240,186,210,1) 0%, rgba(179,143,201,1) 100%);
+  background-size: 400% 400%;
+  animation: backgroundMove 10s ease infinite;
+}
+
+@keyframes backgroundMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(24, 6, 41);
+}
+
+h3 {
+  color: antiquewhite;
+  font-family: fantasy;
+  padding: 0.5rem 1.5rem;
+}
+
+.header nav {
+  display: flex;
+  gap: 1rem;
+  font-family: fantasy;
+  font-size: larger;
+  align-items: center;
+}
+
+.btn {
+  border: transparent;
+  background-color: transparent;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.nav-btn {
+  height: 10dvh;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px transparent solid;
+}
+
+.nav-btn:hover {
+  border-bottom: 2px rgb(87, 55, 60) solid;
+}
+
+.active {
+  border-bottom: 2px rgb(87, 55, 60) solid;
+}
+
+.active p {
+  color: rgb(87, 55, 60);
+}
+
+h1, h2, h4, h5 {
+  color: #5f4c6b;
+  font-family: 'Arial', sans-serif;
+  margin: 1rem 0;
+}
+
+p {
+  color: #3e3e3e;
+  font-family: 'Verdana', sans-serif;
+  padding: 0.5rem 2rem;
+}
+
+.me {
+  max-width: 200px;
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+.featured-projects, .portfolio-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.project {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+}
+
+.project img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: rgba(24, 6, 41, 0.8);
+  color: antiquewhite;
+  font-family: fantasy;
+}
+
+/* Optional hover effect for buttons */
+.btn:hover {
+  background-color: rgba(87, 55, 60, 0.2);
+}

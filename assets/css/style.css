@@ -1,0 +1,129 @@
+* {
+  text-align: center;
+  margin: 1;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(240,186,210);
+  background: radial-gradient(circle, rgba(240,186,210,1) 0%, rgba(179,143,201,1) 100%);
+  background-size: 400% 400%;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  background: transparent;
+}
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: azure;
+  font-size:x-large;
+}
+
+j {
+  font-family: fantasy;
+  background: transparent;
+}
+
+d {
+  font-family: fantasy;
+  color: rgb(65, 37, 53);
+  background: transparent;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: fantasy;
+  background: transparent;
+}
+
+h2 {
+  color: rgb(65, 37, 53);
+  padding: 1rem 2rem;
+  font-family: fantasy;
+  font-size: xx-large;
+}
+
+h3 {
+  color: antiquewhite;
+  padding: 1rem 2rem;
+  background-color: rgb(24, 6, 41);
+  font-family: fantasy;
+}
+
+.header nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  background-color: rgb(24, 6, 41);
+  font-family: fantasy;
+  font-size: larger;
+}
+
+.btn {
+  border: transparent;
+  background-color: transparent;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 5px;
+  font-family: fantasy;
+  
+  &.nav-btn {
+    height: 10dvh;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px transparent solid;
+  }
+
+  btn nav-btn {
+    font-family: fantasy;
+  }
+
+  &.active {
+    border-bottom: 2px rgb(87, 55, 60) solid;
+    font-size: larger;
+    p {
+      color: rgb(87, 55, 60);
+    }
+  }
+}
+
+h1 {
+  color: antiquewhite;
+  font-family: fantasy;
+  font-size: 550%;
+}
+
+.abtme {
+  display: flex;
+  .me {
+    width: 40dvh;
+    margin: 6rem;
+  }
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #b7246b;
+  color: white;
+}
