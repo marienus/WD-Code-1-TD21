@@ -65,6 +65,18 @@ Guiding Question:
 - What are key components
 - What technology used and how it is used
 
+What is the project?
+-It is a project where students create a portfolio website that showcase their experiences and works so far.
+
+What's the purpose?
+-It's to teach students how to use and familiarize themselves to both html and css for creating websites.
+
+What are key components?
+-For my website it's definitely its pages and links. There's a header that navigates to other pages that showcase my work aside from a brief preview of myself at my about me page.
+
+What technology are used and how is it used?
+-Within Github, HTML and CSS were the main usages for creating this website. HTML for structure and contents while CSS gave us the freedom to format and make it fit our personal styles.
+
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
@@ -118,3 +130,6 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+
+| CSS Gradient | This is where I get exact colors for gradient backgrounds and anything else. | https://cssgradient.io/ |
+| Social Media Buttons | This is what I used to be able to connect my instagram and facebook onto my website. | https://www.w3schools.com/howto/howto_css_social_media_buttons.asp |
